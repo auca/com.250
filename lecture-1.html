@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Presentation</title>
+    <style>
+      body {
+        background: #eee;
+        color: black;
+        font-family: sans-serif;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+          color: black;
+      }
+
+      .slide {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        width: 85vw;
+        min-height: 98vh;
+        margin: auto;
+        border-bottom: 0.5em solid #eee
+      }
+
+      .title {
+        font-size: 4em;
+        text-align: center;
+        padding: 1em;
+      }
+
+      .content {
+        font-size: 3em;
+      }
+
+      .reference-slide > .content {
+        display: flex;
+        flex: 1;
+      }
+
+      .content > img {
+        width: 100%;
+      }
+
+      .content > p, .content > ul, .content > ol {
+        padding: 2em;
+      }
+
+      .content > iframe {
+        width: 100%;
+        flex: 1;
+        border: none;
+      }
+
+      .title-slide {
+        background: white;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .title-slide .title {
+        font-size: 5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide title-slide">
+      <p class="title">Introduction</p>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">Past</p>
+    </div>
+    <div class="slide">
+      <div class="content">
+        <img src="http://i.imgur.com/3jmAAtF.jpg" alt="Newton">
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Palm</p>
+      <div class="content">
+        <img src="http://i.imgur.com/wqSQPV5.png" alt="Palm">
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Windows CE</p>
+      <div class="content">
+        <img src="http://i.imgur.com/ldEdT2Q.png" alt="Windows CE">
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Psion</p>
+      <div class="content">
+        <img src="http://i.imgur.com/ZjGbKh3.jpg" alt="Psion">
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Symbian</p>
+      <div class="content">
+        <img src="http://i.imgur.com/MBDW6dP.jpg" alt="Symbian">
+      </div>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">Present</p>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">iOS</p>
+    </div>
+    <div class="slide reference-slide">
+      <a href="http://www.apple.com/ios" target="_blank">
+        http://www.apple.com/ios
+      </a>
+      <div class="content">
+        <iframe src="http://www.apple.com/ios"></iframe>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">iOS</p>
+      <div class="content">
+        <p>Launched in June 2007<br>Based on Mac OS X</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">iOS</p>
+      <div class="content">
+        <ul>
+          <li>iPhone OS 2 (App Store)</li>
+          <li>iPhone OS 3 (iPad)</li>
+          <li>iOS 4&#8211;9</li>
+          <li>watchOS 1&#8211;2</li>
+          <li>tvOS (iOS 9)</li>
+        </ol>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Development</p>
+      <div class="content">
+        <p>Native with Swift, Objective-C, C, C++</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Development</p>
+      <div class="content">
+        <p>Xcode, SDKs, Device simulators</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Development</p>
+      <div class="content">
+        <p>
+          <a href="http://developer.apple.com/programs" target="_blank">
+            iOS Development Center
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Distribution</p>
+      <div class="content">
+        <p>App Store</p>
+      </div>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">Android</p>
+    </div>
+    <div class="slide reference-slide">
+      <a href="http://www.apple.com/ios" target="_blank">
+        https://www.android.com
+      </a>
+      <div class="content">
+        <iframe src="https://www.android.com"></iframe>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Android</p>
+      <div class="content">
+        <p>Launched on October 2007<br>Linux-based</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Android</p>
+      <div class="content">
+        <ul>
+          <li>Cupcake (1.5)</li>
+          <li>Donut (1.6)</li>
+          <li>Eclair (2.0)</li>
+          <li>Froyo (2.2)</li>
+          <li>Gingerbread (2.3)</li>
+          <li>Honeycomb (3.0)</li>
+          <li>Ice Cream Sandwich (4.0)</li>
+          <li>Jelly Bean (4.1)</li>
+          <li>KitKat (4.4)</li>
+          <li>Lollipop (5.0)</li>
+          <li>Marshmallow (6.0)</li>
+        </ol>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Android</p>
+      <div class="content">
+        <ul>
+          <li>Android Wear</li>
+          <li>Android TV</li>
+          <li>Android Auto</li>
+          <li>Glass OS</li>
+        </ol>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Development</p>
+      <div class="content">
+        <p>
+            Custom Dalvik and ART runtimes with just-in-time and
+            ahead-of-time compilation to run custom bytecode derived
+            from Java bytecode.
+        </p>
+        <p>Native with C, C++</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Development</p>
+      <div class="content">
+        <p>AndroidStudio, SDKs, Device emulators</p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Development</p>
+      <div class="content">
+        <p>
+          <a href="http://developer.android.com/index.html" target="_blank">
+            Android Developers
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Distribution</p>
+      <div class="content">
+        <p>Google Play, Amazon Appstore,...</p>
+      </div>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">Windows Phone<br>Windows Mobile</p>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">...</p>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">Tizen, BlackBerry, Jolla</p>
+    </div>
+    <div class="slide reference-slide">
+      <a href="https://www.tizen.org" target="_blank">
+        https://www.tizen.org
+      </a>
+      <div class="content">
+        <iframe src="https://www.tizen.org"></iframe>
+      </div>
+    </div>
+    <div class="slide reference-slide">
+      <a href="https://jolla.com" target="_blank">
+        https://jolla.com
+      </a>
+      <div class="content">
+        <iframe src="https://jolla.com"></iframe>
+      </div>
+    </div>
+    <div class="slide reference-slide">
+      <a href="http://global.blackberry.com/en/smartphones.html" target="_blank">
+        http://global.blackberry.com/en/smartphones.html
+      </a>
+      <div class="content">
+        <iframe src="http://global.blackberry.com/en/smartphones.html"></iframe>
+      </div>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">Fragmentation</p>
+    </div>
+    <div class="slide reference-slide">
+      <a href="https://opensignal.com/reports/2014/android-fragmentation" target="_blank">
+        https://opensignal.com/reports/2014/android-fragmentation
+      </a>
+      <div class="content">
+        <iframe src="https://opensignal.com/reports/2014/android-fragmentation"></iframe>
+      </div>
+    </div>
+    <div class="slide title-slide">
+      <p class="title">Market Share</p>
+    </div>
+    <div class="slide reference-slide">
+      <a href="https://en.wikipedia.org/wiki/Usage_share_of_operating_systems" target="_blank">
+        https://en.wikipedia.org/wiki/Usage_share_of_operating_systems
+      </a>
+      <div class="content">
+        <iframe src="https://en.wikipedia.org/wiki/Usage_share_of_operating_systems"></iframe>
+      </div>
+    </div>
+    <div class="slide reference-slide">
+      <a href="http://www.kantarworldpanel.com/global/smartphone-os-market-share" target="_blank">
+        http://www.kantarworldpanel.com/global/smartphone-os-market-share
+      </a>
+      <div class="content">
+        <iframe src="http://www.kantarworldpanel.com/global/smartphone-os-market-share"></iframe>
+      </div>
+    </div>
+    <div class="slide">
+      <p class="title">Videos</p>
+      <div class="content">
+        <p>
+          <a href="https://drive.google.com/open?id=0B85z_dQxOMgLWUo3T3VVY2Eyc0E" target="_blank">
+            Macworld San Francisco 2007 Keynote
+          </a>
+          <br>
+          <a href="https://drive.google.com/open?id=0B85z_dQxOMgLZ19pU2tUWDZTNVE" target="_blank">
+            Google IO 2012
+          </a>
+        </p>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.4/socket.io.min.js"></script>
+    <script>
+      $(function() {
+        var socket =
+          io('http://control.auca.xyz');
+
+        var slide =
+          1;
+        var slides =
+          $('.slide').length;
+
+        socket.emit('update', {
+          'slide' : 1,
+          'slides' : slides
+        });
+
+        function previous() {
+          slide =
+            Math.max(slide - 1, 1);
+
+          sync(slide);
+        }
+
+        function sync(slideToSwitch) {
+          slide =
+            Math.min(
+              Math.max(
+                slideToSwitch, 0
+              ),
+              slides
+            );
+
+          var slideElement =
+            $('.slide')[slide - 1];
+
+          if (slideElement) {
+            $('html,body').animate({
+              scrollTop: slideElement.offsetTop
+            }, 200);
+          }
+        }
+
+        function next() {
+          slide =
+            Math.min(slide + 1, slides);
+
+          sync(slide);
+        }
+
+        socket.on('previous', previous);
+        socket.on('sync', sync);
+        socket.on('next', next);
+      });
+    </script>
+  </body>
+</html>
