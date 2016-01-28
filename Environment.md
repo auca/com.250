@@ -11,3 +11,10 @@ Development Environment
 ## Portable Environment for Practice Classes
 
 [Scripts to make Android Studio portable](https://github.com/toksaitov/AndroidStudioPortable)
+
+## Alternatives to the Official Android Emulator
+
+* [Android-x86](http://www.android-x86.org)
+* [BlueStacks](http://www.bluestacks.com)
+* [Visual Studio Emulator for Android](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx)
+* [Genymotion](https://www.genymotion.com)
