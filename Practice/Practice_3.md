@@ -22,7 +22,7 @@ Set `InputType` for `EditText` field to `numberDecimal`.
 Check for attempts to divide by zero. Show `Toast` popups with user-friendly
 error messages for such cases.
 
-You app should work in any orientation.
+Your app should work in any orientation.
 
 Round results of calculations to ~10 decimal places.
 
