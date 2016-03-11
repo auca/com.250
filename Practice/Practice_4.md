@@ -34,6 +34,12 @@ Find out how to get access to files from the `raw` group under `res` with the
 
 You can leave the `RelativeLayout` to position UI widgets.
 
+## Task #2: Currency
+
+<http://developer.android.com/training/basics/network-ops/connecting.html>
+
+Make the currency conversion activity to fetch currency rates from a 3-rd party provider such as <http://fixer.io>. Do the work on a background thread. Update UI on the main UI thread. Do not forget to add appropriate permissions to the manifest file.
+
 ## Reading
 
 ### From C# to Java
