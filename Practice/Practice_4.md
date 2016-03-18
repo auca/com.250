@@ -52,6 +52,8 @@ Make the currency conversion activity to fetch currency rates from a 3-rd party 
 * [Intents and Intent Filters](http://developer.android.com/guide/components/intents-filters.html)
 * [App Resources](http://developer.android.com/guide/topics/resources/providing-resources.html)
 * [Storage Options](http://developer.android.com/guide/topics/data/data-storage.html)
+* [Processes and Threads](http://developer.android.com/guide/components/processes-and-threads.html)
+* [App Manifest](http://developer.android.com/guide/topics/manifest/manifest-intro.html)
 * [UI Overview](http://developer.android.com/guide/topics/ui/overview.html)
 * [Input Controls](http://developer.android.com/guide/topics/ui/controls.html)
 * [Input Events](http://developer.android.com/guide/topics/ui/ui-events.html)
