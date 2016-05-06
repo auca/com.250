@@ -7,4 +7,4 @@ Examination
 
 ## Final
 
-* [Signup Form](https://docs.google.com/a/auca.kg/spreadsheets/d/1VItNU551Fg0Oie2WX2LmcajDpwtB4e6lSvkNCot3Cis
+* [Signup Form](https://docs.google.com/a/auca.kg/spreadsheets/d/1VItNU551Fg0Oie2WX2LmcajDpwtB4e6lSvkNCot3Cis)
