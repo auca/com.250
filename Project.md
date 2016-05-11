@@ -6,7 +6,7 @@ Cource Project
 ![Architecture](http://i.imgur.com/DbMzzpQ.png)
 
 * [monet-api](https://github.com/toksaitov/monet-api)
-* [monet-api](https://github.com/toksaitov/monet-agent)
+* [monet-agent](https://github.com/toksaitov/monet-agent)
 
 ### Supporting Services
 
