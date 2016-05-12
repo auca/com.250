@@ -1,4 +1,4 @@
-Cource Project
+Course Project
 ==============
 
 ## Monet, an Image Generation Service
