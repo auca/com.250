@@ -1,71 +1,33 @@
 Practice #4
 ===========
 
-![sample](../Images/Practice_4_Sample.jpg)
+![Example](http://i.imgur.com/sjust5t.png)
 
-## Task #1: Converter
+## Task #1: Dice
 
-Create a converter app. The app should allow to convert from one measurement to
-another. The app should include at least length, mass, and currency conversion.
+Create an application to randomly generate dice values and show the appropriate
+dice images for those values to the end-user.
 
-The app should contain three separate activities
+Consider using vector graphics to ensure having crisp images on devices with
+different screen resolutions.
 
-* Menu
-* Unit conversion
-* Currency conversion
+UI widgets that you need to use
 
-Use `Intent` objects and the `startActivity` method to switch to another
-activities.
-
-UI Widgets that you need to use
-
-* `EditText`
+* Two `ImageView` for dice
 * `Button`
-* `Spinner`
 
-Try to use JSON (`JSONObject`) and XML (`getResources().obtainTypedArray()`) to
-store conversion factors and unit/currency names.
+Ensure that the application can survive orientation change events.
 
-Use `SharedPreferences` to load and save the state of the app (specifically
-values from all input fields).
-
-Find out how to get access to files from the `raw` group under `res` with the
-`getResources().openRawResource(...)` call.
-
-You can leave the `RelativeLayout` to position UI widgets.
-
-## Task #2: Currency
-
-<http://developer.android.com/training/basics/network-ops/connecting.html>
-
-Make the currency conversion activity to fetch currency rates from a 3-rd party provider such as <http://fixer.io>. Do the work on a background thread. Update UI on the main UI thread. Do not forget to add appropriate permissions to the manifest file.
+Consider separating generation logic away from the presentation layer.
 
 ## Reading
-
-### From C# to Java
-
-* [Languages Side-by-side](http://hyperpolyglot.org/cpp)
 
 ### Android Documentation
 
 * [App Fundamentals](http://developer.android.com/guide/components/fundamentals.html)
-* [Intents and Intent Filters](http://developer.android.com/guide/components/intents-filters.html)
-* [App Resources](http://developer.android.com/guide/topics/resources/providing-resources.html)
-* [Storage Options](http://developer.android.com/guide/topics/data/data-storage.html)
-* [Processes and Threads](http://developer.android.com/guide/components/processes-and-threads.html)
-* [App Manifest](http://developer.android.com/guide/topics/manifest/manifest-intro.html)
 * [UI Overview](http://developer.android.com/guide/topics/ui/overview.html)
 * [Input Controls](http://developer.android.com/guide/topics/ui/controls.html)
 * [Input Events](http://developer.android.com/guide/topics/ui/ui-events.html)
-* [RelativeLayout](http://developer.android.com/guide/topics/ui/layout/relative.html)
-* [Spinners](http://developer.android.com/guide/topics/ui/controls/spinner.html)
-* [Styles and Themes](http://developer.android.com/guide/topics/ui/themes.html)
-* [JSONObject](http://developer.android.com/reference/org/json/JSONObject.html)
+* [Vector Graphics](https://developer.android.com/studio/write/vector-asset-studio.html)
+* [Image Asset](https://developer.android.com/studio/write/image-asset-studio.html)
 
-### Java Documentation
-
-* [Basic I/O](https://docs.oracle.com/javase/tutorial/essential/io/)
-
-### JSON
-
-* [JSON](http://www.json.org)

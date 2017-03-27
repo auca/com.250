@@ -25,3 +25,4 @@ The following images are required to run the [monet](https://github.com/toksaito
 
 * [neural-doodle-cpu](https://github.com/toksaitov/neural-doodle-cpu)
 * [neural-doodle-gpu](https://github.com/toksaitov/neural-doodle-gpu)
+

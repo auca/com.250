@@ -1,36 +1,24 @@
 Practice #3
 ===========
 
-![sample](../Images/Practice_3_Sample.jpg)
+![Example](http://i.imgur.com/A3LafoE.png)
 
-## Task #1: Calculator
+## Task #1: Counter
 
-Create a calculator app. The app should contain a number pad, one text field to
-preview operand values and show results, and buttons for basic mathematical
-operations (`+`, `-`, `*`, `/`, `MOD`, `+/-`). The app should imitate a simple
-electronic calculator.
+Create an application to count events, objects, or people passing by. The user
+can click on the button and increment the counter at the center of the screen.
 
-UI Widgets that you need to use
+UI widgets that you need to use
 
-* `EditText` or `TextView`
 * `Button`
+* `TextView`
 
-Try to use the `TableLayout` to position UI widgets.
+Use `String.format` with a proper `printf`-like formatting string to show
+leading zeros in your counter.
 
-Set `InputType` for `EditText` field to `numberDecimal`.
-
-Check for attempts to divide by zero. Show `Toast` popups with user-friendly
-error messages for such cases.
-
-Your app should work in any orientation.
-
-Round results of calculations to ~10 decimal places.
+Ensure that the application can survive orientation change events.
 
 ## Reading
-
-### From C# to Java
-
-* [Languages Side-by-side](http://hyperpolyglot.org/cpp)
 
 ### Android Documentation
 
@@ -38,10 +26,4 @@ Round results of calculations to ~10 decimal places.
 * [UI Overview](http://developer.android.com/guide/topics/ui/overview.html)
 * [Input Controls](http://developer.android.com/guide/topics/ui/controls.html)
 * [Input Events](http://developer.android.com/guide/topics/ui/ui-events.html)
-* [Toasts](http://developer.android.com/guide/topics/ui/notifiers/toasts.html)
-* [TableLayout](http://developer.android.com/reference/android/widget/TableLayout.html)
 
-### Java Documentation
-
-* [Stack](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
-* [BigDecimal](https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html)
