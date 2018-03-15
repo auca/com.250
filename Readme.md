@@ -26,3 +26,6 @@ View the screen of the instructor's machine
 
 * <https://hangouts.google.com/hangouts/_/auca.kg/com-254>
 
+## Team Sign-up Form
+
+* <https://docs.google.com/spreadsheets/d/1MIkOS9mvIFgBrpIudmRtXnqoM03CJ-6KoZPMIHJNWas/edit?usp=sharing>
