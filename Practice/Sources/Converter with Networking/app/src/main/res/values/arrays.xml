@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="length_conversion_factors">
+        <item >1.0</item>
+        <item >10.0</item>
+        <item >1000.0</item>
+        <item >1000000.0</item>
+        <item >1609000.0</item>
+    </array>
+
+    <array name="mass_conversion_factors">
+        <item >1.0</item>
+        <item >1000.0</item>
+        <item >1000000.0</item>
+        <item >1000000000.0</item>
+        <item >453592.0</item>
+    </array>
+
+</resources>

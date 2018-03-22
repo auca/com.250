@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="length_conversion_button_text">Length</string>
+    <string name="mass_conversion_button_text">Mass</string>
+    <string name="currency_conversion_button_text">Currency</string>
+    <string name="conversion_activity_title">Conversion</string>
+    <string name="conversion_data_update_error_message">Can\'t fetch the latest conversion data</string>
+    <string name="please_wait_message">Please wait…</string>
+
+    <string-array name="length_conversion_unit_names">
+        <item>Milimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Mile</item>
+    </string-array>
+
+    <string-array name="mass_conversion_unit_names">
+        <item>Miligram</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Metric ton</item>
+        <item>Pound</item>
+    </string-array>
+
+    <string-array name="currency_conversion_unit_names">
+        <item>US Dollar</item>
+        <item>Russian Ruble</item>
+        <item>Euro</item>
+    </string-array>
+
+</resources>

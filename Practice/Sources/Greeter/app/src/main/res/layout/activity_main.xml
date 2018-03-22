@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kg.auca.greeter.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/messageTextView"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:freezesText="true"
+        android:layout_below="@+id/greetButton"/>
+
+    <Button
+        android:text="@string/greetButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/greetButton"
+        android:onClick="greet"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:ems="10"
+        android:layout_alignParentStart="true"
+        android:id="@+id/nameEditText"
+        android:layout_toStartOf="@+id/greetButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/greetButton"/>
+
+</RelativeLayout>

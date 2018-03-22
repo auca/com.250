@@ -1,0 +1,48 @@
+<vector android:height="24dp" android:viewportHeight="1024.0"
+    android:viewportWidth="1024.0" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillAlpha="0.0" android:fillColor="#000000"
+        android:pathData="m0,0l1024,0l0,1024l-1024,0z"
+        android:strokeColor="#00000000" android:strokeLineCap="square"/>
+    <path android:fillAlpha="0.0" android:fillColor="#000000"
+        android:pathData="m49.5,49.5l925,0l0,925l-925,0z"
+        android:strokeColor="#00000000" android:strokeLineCap="square"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m49.5,49.5l925,0l0,925l-925,0z"
+        android:strokeColor="#595959" android:strokeLineCap="butt"
+        android:strokeLineJoin="round" android:strokeWidth="24.0"/>
+    <path android:fillColor="#000000"
+        android:pathData="m160,244l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#00000000" android:strokeLineCap="square"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m160,244l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#000000" android:strokeLineCap="butt"
+        android:strokeLineJoin="round" android:strokeWidth="4.0"/>
+    <path android:fillColor="#000000"
+        android:pathData="m160,780l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#00000000" android:strokeLineCap="square"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m160,780l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#000000" android:strokeLineCap="butt"
+        android:strokeLineJoin="round" android:strokeWidth="4.0"/>
+    <path android:fillColor="#000000"
+        android:pathData="m696.1,244l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#00000000" android:strokeLineCap="square"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m696.1,244l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#000000" android:strokeLineCap="butt"
+        android:strokeLineJoin="round" android:strokeWidth="4.0"/>
+    <path android:fillColor="#000000"
+        android:pathData="m696.1,780l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#00000000" android:strokeLineCap="square"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m696.1,780l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#000000" android:strokeLineCap="butt"
+        android:strokeLineJoin="round" android:strokeWidth="4.0"/>
+    <path android:fillColor="#000000"
+        android:pathData="m428,512l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#00000000" android:strokeLineCap="square"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m428,512l0,0c0,-46.4 37.6,-84 84,-84l0,0c22.3,0 43.6,8.8 59.4,24.6c15.7,15.7 24.6,37.1 24.6,59.4l0,0c0,46.4 -37.6,84 -84,84l0,0c-46.4,0 -84,-37.6 -84,-84z"
+        android:strokeColor="#000000" android:strokeLineCap="butt"
+        android:strokeLineJoin="round" android:strokeWidth="4.0"/>
+</vector>

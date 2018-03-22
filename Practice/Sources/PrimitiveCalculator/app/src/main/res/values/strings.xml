@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Primitive Calculator</string>
+    <string name="additionRadioButtonText">Add</string>
+    <string name="subtractionRadioButtonText">Subtract</string>
+    <string name="multiplicationRadioButtonText">Multiply</string>
+    <string name="divisionRadioButtonText">Divide</string>
+    <string name="calculateButtonText">Calculate</string>
+</resources>
