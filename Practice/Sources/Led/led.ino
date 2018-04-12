@@ -1,6 +1,6 @@
 #include <ESP8266WiFi.h> 
 
-static const char *WIFI_SSID = "au-guest";
+static const char *WIFI_SSID = "AU-Guest";
 static const char *WIFI_PASSWORD = "";
 
 WiFiServer Server(80);
