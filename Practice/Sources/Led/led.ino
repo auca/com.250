@@ -9,8 +9,8 @@ void setup()
 {
     Serial.begin(115200);
 
-    pinMode(ledPin, OUTPUT);
-    digitalWrite(ledPin, LOW);
+    pinMode(LED_BUILTIN, OUTPUT);
+    digitalWrite(LED_BUILTIN, LOW);
 
     Serial.print("Connecting to ");
     Serial.println(WIFI_SSID);
@@ -48,11 +48,11 @@ void loop()
 
     int value = LOW;
     if (request.indexOf("/led=on") != -1)  {
-        digitalWrite(ledPin, HIGH);
+        digitalWrite(LED_BUILTIN, HIGH);
         value = HIGH;
     }
     if (request.indexOf("/led=off") != -1)  {
-        digitalWrite(ledPin, LOW);
+        digitalWrite(LED_BUILTIN, LOW);
         value = LOW;
     }
 
