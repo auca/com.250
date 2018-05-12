@@ -1,6 +1,6 @@
 ## Lectures
 
-1. [Introduction](http://auca.github.io/com.250/lecture-1.html)
+1. [Introduction](http://auca.github.io/com.254/lecture-1.html)
 
 ### Videos
 
