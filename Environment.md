@@ -12,17 +12,16 @@ Development Environment
 
 ### Portable Environment for Practice Classes
 
-[Scripts to make Android Studio portable](https://github.com/toksaitov/AndroidStudioPortable)
+* [Scripts to make Android Studio portable](https://github.com/toksaitov/AndroidStudioPortable)
 
 ### Alternatives to the Official Android Emulator
 
-* [Android-x86](http://www.android-x86.org)
 * [BlueStacks](http://www.bluestacks.com)
-* [Visual Studio Emulator for Android](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx)
-* [Genymotion](https://www.genymotion.com)
 
 ### Arduino
 
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * [CH340 Driver](https://sparks.gogo.co.nz/ch340.html)
+* [CP210x Driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+* [ESP-32 Board Files for Arduino IDE](https://github.com/espressif/arduino-esp32)
 

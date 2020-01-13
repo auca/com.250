@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Dice</string>
-    <string name="firstDieImageViewContentDescription">Die</string>
-    <string name="secondDieImageViewContentDescription">Die</string>
-    <string name="rollButtonText">Roll</string>
-</resources>

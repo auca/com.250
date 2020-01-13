@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Greeter</string>
-    <string name="messageTemplate">Hello, %s</string>
-    <string name="name">Name</string>
-    <string name="greetButtonText">Greet</string>
-</resources>

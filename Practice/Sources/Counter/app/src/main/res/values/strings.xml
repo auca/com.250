@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Counter</string>
-    <string name="countButtonText">Count</string>
-    <string name="counterTextViewText">0000</string>
-</resources>
