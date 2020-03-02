@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:gravity="center"
+    tools:context=".CalculatorActivity">
+
+    <EditText
+        android:text="@string/inputEditTextText"
+        android:id="@+id/inputEditText"
+        style="@style/CalculatorInputEditTextStyle"
+        tools:ignore="LabelFor" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/clearButtonText"
+            android:id="@+id/clearButton"
+            android:onClick="onClearButtonClick"
+            style="@style/CalculatorOperationButtonStyle" />
+
+        <Button
+            android:text="@string/changeSignButtonText"
+            android:id="@+id/changeSignButton"
+            android:onClick="onChangeSignButtonClick"
+            style="@style/CalculatorOperationButtonStyle" />
+
+        <Button
+            android:text="@string/moduloButtonText"
+            android:id="@+id/moduloButton"
+            android:onClick="onBinaryOperationButtonClick"
+            android:tag="Modulo"
+            style="@style/CalculatorOperationButtonStyle" />
+
+        <Button
+            android:text="@string/divideButtonText"
+            android:id="@+id/divideButton"
+            android:onClick="onBinaryOperationButtonClick"
+            android:tag="Divide"
+            style="@style/CalculatorOperationButtonStyle" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/sevenButtonText"
+            android:id="@+id/sevenButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/eightButtonText"
+            android:id="@+id/eightButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/nineButtonText"
+            android:id="@+id/nineButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/multiplyButtonText"
+            android:id="@+id/multiplyButton"
+            android:onClick="onBinaryOperationButtonClick"
+            android:tag="Multiply"
+            style="@style/CalculatorOperationButtonStyle" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/fourButtonText"
+            android:id="@+id/fourButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/fiveButtonText"
+            android:id="@+id/fiveButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/sixButtonText"
+            android:id="@+id/sixButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/minusButtonText"
+            android:id="@+id/minusButton"
+            android:onClick="onBinaryOperationButtonClick"
+            android:tag="Subtract"
+            style="@style/CalculatorOperationButtonStyle" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/oneButtonText"
+            android:id="@+id/oneButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/twoButtonText"
+            android:id="@+id/twoButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/threeButtonText"
+            android:id="@+id/threeButton"
+            android:onClick="onNumericButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/plusButtonText"
+            android:id="@+id/plusButton"
+            android:onClick="onBinaryOperationButtonClick"
+            android:tag="Add"
+            style="@style/CalculatorOperationButtonStyle" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/zeroButtonText"
+            android:id="@+id/zeroButton"
+            android:onClick="onNumericButtonClick"
+            android:layout_span="2"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/decimalPointButtonText"
+            android:id="@+id/decimalPointButton"
+            android:onClick="onDecimalPointButtonClick"
+            style="@style/CalculatorButtonStyle" />
+
+        <Button
+            android:text="@string/resultButtonText"
+            android:id="@+id/calculateResultButton"
+            android:onClick="onCalculateResultButtonClick"
+            style="@style/CalculatorOperationButtonStyle" />
+
+    </TableRow>
+
+</TableLayout>

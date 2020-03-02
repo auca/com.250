@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор++</string>
+    <string name="calculatorButtonText">Калькулятор</string>
+    <string name="lengthUnitConverterButtonText">Конвертор длины</string>
+    <string name="massUnitConverterButtonText">Конвертор веса</string>
+    <string name="currencyConverterButtonText">Конвертор валют</string>
+    <string-array name="lengthConversionUnitNames">
+        <item>Миллиметры</item>
+        <item>Сантиметры</item>
+        <item>Метры</item>
+        <item>Километры</item>
+        <item>Мили</item>
+    </string-array>
+    <string-array name="massConversionUnitNames">
+        <item>Миллиграммы</item>
+        <item>Граммы</item>
+        <item>Килограммы</item>
+        <item>Тонн</item>
+        <item>Фунты</item>
+    </string-array>
+    <string-array name="currencyConversionUnitNames">
+        <item>US Dollar</item>
+        <item>Euro</item>
+        <item>Russian Ruble</item>
+    </string-array>
+    <string name="currencyRateEditTextText">Введите курс валют</string>
+    <string name="clearButtonText">C</string>
+    <string name="changeSignButtonText">-/+</string>
+    <string name="percentageButtonText">%</string>
+    <string name="moduloButtonText">mod</string>
+    <string name="divideButtonText">/</string>
+    <string name="sevenButtonText">7</string>
+    <string name="eightButtonText">8</string>
+    <string name="nineButtonText">9</string>
+    <string name="multiplyButtonText">*</string>
+    <string name="fourButtonText">4</string>
+    <string name="fiveButtonText">5</string>
+    <string name="sixButtonText">6</string>
+    <string name="minusButtonText">-</string>
+    <string name="oneButtonText">1</string>
+    <string name="twoButtonText">2</string>
+    <string name="threeButtonText">3</string>
+    <string name="plusButtonText">+</string>
+    <string name="zeroButtonText">0</string>
+    <string name="decimalPointButtonText">.</string>
+    <string name="resultButtonText">=</string>
+    <string name="inputEditTextText">0</string>
+    <string name="DivisionByZeroErrorText">Ошибка деления на ноль</string>
+</resources>

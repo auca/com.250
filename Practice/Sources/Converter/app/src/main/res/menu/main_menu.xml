@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/lengthUnitConverterMenuItem"
+        android:title="@string/lengthUnitConverterButtonText" />
+    <item android:id="@+id/massUnitConverterMenuItem"
+        android:title="@string/massUnitConverterButtonText" />
+    <item android:id="@+id/currencyConverterMenuItem"
+        android:title="@string/currencyConverterButtonText" />
+</menu>

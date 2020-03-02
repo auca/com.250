@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Calculator++</string>
+    <string name="calculatorButtonText">Calculator</string>
+    <string name="lengthUnitConverterButtonText">Length Unit Converter</string>
+    <string name="massUnitConverterButtonText">Mass Unit Converter</string>
+    <string name="currencyConverterButtonText">Currency Converter</string>
+    <string name="currencyRateEditTextText">Enter the currency rate</string>
+    <string-array name="lengthConversionUnitNames">
+        <item>Milimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Mile</item>
+    </string-array>
+    <string-array name="massConversionUnitNames">
+        <item>Miligram</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Metric ton</item>
+        <item>Pound</item>
+    </string-array>
+    <string-array name="currencyConversionUnitNames">
+        <item>US Dollar</item>
+        <item>Euro</item>
+        <item>Russian Ruble</item>
+    </string-array>
+    <string name="clearButtonText">C</string>
+    <string name="changeSignButtonText">-/+</string>
+    <string name="percentageButtonText">%</string>
+    <string name="moduloButtonText">mod</string>
+    <string name="divideButtonText">/</string>
+    <string name="sevenButtonText">7</string>
+    <string name="eightButtonText">8</string>
+    <string name="nineButtonText">9</string>
+    <string name="multiplyButtonText">*</string>
+    <string name="fourButtonText">4</string>
+    <string name="fiveButtonText">5</string>
+    <string name="sixButtonText">6</string>
+    <string name="minusButtonText">-</string>
+    <string name="oneButtonText">1</string>
+    <string name="twoButtonText">2</string>
+    <string name="threeButtonText">3</string>
+    <string name="plusButtonText">+</string>
+    <string name="zeroButtonText">0</string>
+    <string name="decimalPointButtonText">.</string>
+    <string name="resultButtonText">=</string>
+    <string name="inputEditTextText">0</string>
+    <string name="DivisionByZeroErrorText">Can not divide by zero</string>
+</resources>
