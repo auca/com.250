@@ -27,3 +27,11 @@ Contacts, piazza & server data, attendance
 
 * <https://docs.google.com/spreadsheets/d/1KJyQUwB064tv7xsbvPUZKXqikZPTqp1ooOyrF1LtrJY/edit?usp=sharing>
 
+## Practice Midterm Signup
+
+* <https://docs.google.com/spreadsheets/d/1h-0bL7Qplcjf_ih5TN03oIC-O5oMFQtxVXQTJ0ahDTs/edit?usp=sharing>
+
+## Practice Midterm Task List
+
+* TBD
+
