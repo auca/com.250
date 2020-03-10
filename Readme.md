@@ -25,13 +25,12 @@ View previous class recordings
 
 Contacts, piazza & server data, attendance
 
-* <https://docs.google.com/spreadsheets/d/1KJyQUwB064tv7xsbvPUZKXqikZPTqp1ooOyrF1LtrJY/edit?usp=sharing>
+* <https://docs.google.com/spreadsheets/d/1KJyQUwB064tv7xsbvPUZKXqikZPTqp1ooOyrF1LtrJY>
 
 ## Practice Midterm Signup
 
-* <https://docs.google.com/spreadsheets/d/1h-0bL7Qplcjf_ih5TN03oIC-O5oMFQtxVXQTJ0ahDTs/edit?usp=sharing>
+* <https://docs.google.com/spreadsheets/d/1h-0bL7Qplcjf_ih5TN03oIC-O5oMFQtxVXQTJ0ahDTs>
 
 ## Practice Midterm Task List
 
-* TBD
-
+* <https://docs.google.com/spreadsheets/d/1ngC0z4V4SjAt9xs4WzPuLpSmezFfh9-H6iJh95jOVt0>
