@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Doodler</string>
+    <string name="cancelMenuItemTitle">Cancel</string>
+    <string name="saveMenuItemTitle">Save</string>
+    <string name="confirmationDialogTitle">Confirmation</string>
+    <string name="confirmationDialogMessage">Changes will not be saved. Do you really want to exit?</string>
+    <string name="confirmationDialogPositiveLabel">Yes</string>
+    <string name="confirmationDialogNegativeLabel">No</string>
+</resources>
