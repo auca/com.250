@@ -1,6 +1,10 @@
 Practice #2 (Dungeon)
 =====================
 
+<img src="https://i.imgur.com/ddG0CEf.png" width="200">
+
+<img src="https://i.imgur.com/hP9T8WV.png" width="200">
+
 ## Requirements
 
 Create a game app for the Android or iOS platform that allows a player to navigate a 2D maze by switching from one screen of an app to another one. In addition, the app should allow undoing the steps for the user by going back in the navigation stack.
