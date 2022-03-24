@@ -1,40 +1,57 @@
-Practice #1
-===========
+Practice #1 (Kaboom!)
+=====================
 
-![Example](http://i.imgur.com/0nh3Ttq.png)
+## Requirements
 
-## Task #1: Development Environment
+Create a game app for the Android or iOS platform that generates random instructions for the user to perform with standard UI components on the screen such as text and password fields, toggles, buttons, and sliders to disarm an imaginary bomb in the game.
 
-Prepare a [development environment](https://github.com/auca/com.250/blob/master/Environment.md)
-on your machine.
+* Your app MUST include at least the following components on iOS:
 
-## Task #2: Hello
+ * TextField
+ * SecureField
+ * Button
+ * Toggle
+ * Stepper
+ * Slider
 
-Create a new Android Studio project for an application to show a "hello, world"
-message.
+* Your app MUST include at least the following components on Android:
 
-## Task #3: Emulators and Real Devices
+ * TextField
+ * TextField used as a Password Field
+ * Button
+ * Switch
+ * RadioButton
+ * Checkbox
+ * Slider
 
-Create and start a new Android Virtual Device (AVD). Deploy and start your
-application on it.
+* If the instructions are followed correctly by the user and the disarm button is pressed, show a vector image with any appropriate success symbol covering the screen. Hide the disarm button.
 
-Use `x86` or `x86-64` Android emulator images with the Intel Hardware
-Accelerated Execution Manager (HAXM). Lab machines have a memory limit of one
-gigabyte for the HAXM driver. Ensure that the RAM size of your virtual device is
-not higher than this limit.
+* If just a single instruction was NOT followed correctly by the user, show a raster image of an explosion covering the screen. Hide the disarm button.
 
-Connect your device to the machine. On Windows, ensure that the [debug driver](http://developer.android.com/tools/extras/oem-usb.html)
-is installed. Don't forget to [enable debugging](http://developer.android.com/tools/device.html)
-on the device itself. Deploy and start your application on the real device.
+* It is up to you to select the images, but ensure they are not offensive. Ensure that the success image is vector-based and the explosion image is raster-based. Both of them must be of an acceptable resolution and size.
 
-## Task #4: Debugging
+* The app should contain a button to restart/reset the game at any point in the game logic.
 
-Open the Java code of your main activity. Place a break point inside the
-`onCreate` method. Start the application in debug mode on your device or inside
-the emulator. Ensure that everything works by stepping through your code inside
-the IDE.
+* The app should target a common phone form factor. You may limit your app to work only in that mode in the project's configurations.
 
-## Reading
+* The app should target the portrait screen mode. You may limit your app to work only in that mode in the project's configurations.
 
-[Android Development Tools](http://developer.android.com/sdk/index.html)
+* The app should be of acceptable visual quality.
 
+* A certain level of creative freedom is acceptable here as long as you have all the components and logic outlined here and during the classes.
+
+## Submission
+
+Put the root project directory under the folder `lab-1` in your private course repository on GitHub. If you don't have a private repository on GitHub for this course, ask the instructor for instructions on how to create one. Ensure that you have proper `.gitignore` files in your project folders to ignore intermediate and compiled files. We do not need them in your repository. Finally, commit and push the work to GitHub. The last commit ID to a snapshot representing your final work must be submitted to Canvas before the deadline.
+
+You have to create only one app for one platform of your choice. If you have decided to develop apps for both platforms, put the projects under subfolders `android` and `ios` in your `lab-1` directory.
+
+### Android
+
+* [Android Studio](https://developer.android.com/studio)
+* [Jetpack Compose](https://developer.android.com/jetpack/compose)
+
+### iOS
+
+* [Xcode](https://developer.apple.com/xcode)
+* [SwiftUI](https://developer.apple.com/documentation/swiftui)
