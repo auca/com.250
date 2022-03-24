@@ -3,26 +3,28 @@ Practice #1 (Kaboom!)
 
 ## Requirements
 
+<img src="https://i.imgur.com/euHEqlL.png" width="200">
+
+<img src="https://i.imgur.com/c21riRf.png" width="200">
+
 Create a game app for the Android or iOS platform that generates random instructions for the user to perform with standard UI components on the screen such as text and password fields, toggles, buttons, and sliders to disarm an imaginary bomb in the game.
 
 * Your app MUST include at least the following components on iOS:
-
- * TextField
- * SecureField
- * Button
- * Toggle
- * Stepper
- * Slider
+  * TextField
+  * SecureField
+  * Button
+  * Toggle
+  * Stepper
+  * Slider
 
 * Your app MUST include at least the following components on Android:
-
- * TextField
- * TextField used as a Password Field
- * Button
- * Switch
- * RadioButton
- * Checkbox
- * Slider
+  * TextField
+  * TextField used as a Password Field
+  * Button
+  * Switch
+  * RadioButton
+  * Checkbox
+  * Slider
 
 * If the instructions are followed correctly by the user and the disarm button is pressed, show a vector image with any appropriate success symbol covering the screen. Hide the disarm button.
 
