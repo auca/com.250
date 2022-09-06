@@ -1,5 +1,5 @@
-Mobile and IoT Application Development (COM-254)
-================================================
+Mobile and IoT Application Development
+======================================
 
 ## Syllabus
 
