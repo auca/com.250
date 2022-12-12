@@ -11,4 +11,4 @@ General course information, time, rules, grading, and books
 
 View this semester's class recordings
 
-* <https://youtube.com/playlist?list=PLHcEzCb_lW6fEyF8ehk9OCmf9DFK10UL8>
+* <https://drive.google.com/drive/folders/1JsNBxR9vhL80gxRuhWbbBe0j75H4GAge?usp=sharing>
