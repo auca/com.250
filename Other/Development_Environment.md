@@ -19,12 +19,6 @@ Refer to the device documentation on which drivers to install.
 
 * [Xcode](https://developer.apple.com/xcode/resources/)
 
-#### Embedded Development
+#### Flutter Cross-platform Development
 
-* [PlatformIO](https://platformio.org)
-
-### Optional Software
-
-#### Portable Environment
-
-* [Scripts to make Android Studio portable](https://github.com/toksaitov/AndroidStudioPortable)
+* [Flutter](https://flutter.dev)
