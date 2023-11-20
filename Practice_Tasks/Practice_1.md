@@ -42,12 +42,6 @@ Create a game app for the Android or iOS platform that generates random instruct
 
 * A certain level of creative freedom is acceptable here as long as you have all the components and logic outlined here and during the classes.
 
-## Submission
-
-Put the root project directory under the folder `lab-01` in your private course repository on GitHub. If you don't have a private repository on GitHub for this course, ask the instructor for instructions on how to create one. Ensure that you have proper `.gitignore` files in your project folders to ignore intermediate and compiled files. We do not need them in your repository. Finally, commit and push the work to GitHub. The last commit ID to a snapshot representing your final work must be submitted to Canvas before the deadline.
-
-You have to create only one app for one platform of your choice. If you have decided to develop apps for both platforms, put the projects under subfolders `android` and `ios` in your `lab-01` directory.
-
 ### Android
 
 * [Android Studio](https://developer.android.com/studio)
