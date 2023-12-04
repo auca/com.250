@@ -26,6 +26,8 @@ Create a game app for the Android or iOS platform that generates random instruct
   * Checkbox
   * Slider
 
+* Your app MUST include appropritate controls crossplatform from iOS or Android on Flutter:
+ 
 * If the instructions are followed correctly by the user and the disarm button is pressed, show a vector image with any appropriate success symbol covering the screen. Hide the disarm button.
 
 * If just a single instruction was NOT followed correctly by the user, show a raster image of an explosion covering the screen. Hide the disarm button.
